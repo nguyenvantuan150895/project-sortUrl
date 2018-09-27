@@ -3,3 +3,4 @@
 3. git add *
 4. git commit -m "direction"
 5. git push
+toi can dong bo hoa
