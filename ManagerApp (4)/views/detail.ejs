@@ -1,0 +1,75 @@
+<%- include('partials/aboveContent.ejs'); %>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        DataBase Manager
+        <p class="fa fa-fw fa-tripadvisor"></p> 
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">Tables</a></li>
+        <li class="active">Data tables</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header">
+              
+              
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="register-box-body" style = "border: 1px solid #d2d6dd;   border-top: 4px solid #337ab7; border-radius: 5px; width: 100%;height: 100%; margin-left: auto; margin-right: auto">
+                  <img style = "width: 40px; height: 40px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAB8fHzf398+Pj6Hh4esrKweHh6WlpZYWFiTk5NOTk7y8vKKiorPz89ra2vn5+e5ubn4+Pi/v7/x8fHb29tycnKcnJwVFRUzMzPR0dGkpKQkJCTFxcVmZmawsLAtLS1FRUUrKysMDAwYGBg7OztgYGBnxjD2AAAE4UlEQVR4nO2d2XLaQBBFEZvZjEE2q40xweT/PzFREVJaRz2LuC18z5Nf1NIpiVl6esadzpVu1A7GHVdoqAUa0lA/NKShfmhIQ/0EMrz0NXFpwHDhHKYJ4gYMewGfz58ZDWXQEAgNhdAQCA2F0BAIDYXQEAgNhdAQCA2F0BAIDYXQEAgNhdAQCA2F0BDIfQw3u3stNHVBhoPoXryADJ9pSEMa0pCGNKQhDR/A8H6jtk+Q4XJwL4YgQyQ0FNIWw6lzGM2G0+fjvDdL/nzbz53DKDYMBA3bDw3bDw3bDw3bDw3xxPEsjj2u12y4eh9Md9cnO1/Gz0e3LT1aDePjZ1Rk/WofSafhal2id6Vr+yY1Gs5PlX4Jv1dW0fQZLsZGv4TPN4t46gxHtX4J7/KAygwXO5FgFE1n0pC6DJdCv4SDMKYqQ7sMezHDWoomQ9sE+0YUVZGh/bZykaIew4m1oOxDVWM4dBAUNTd1q2vnp4b4/sjcqOckKNlgj1s/zH5h345RdnoNz5n7vDjHeVZrmGkH5x6B6hoPmGFm2v7hEeik1DCzbO/Wjt6oaU9Rhvv0XfxC1TQ2IMNt+iY24+0yzGuLIMNMRbB0xlSFeQUcZJj+7ay8oxm7fZBh+h7+NTvGETjGMNPCb73DXTwMG6qJSv8MXUekaUwpjRrDw2TUAJN0X/EewNCUKMbPnspy27YMDPHxhucAhn1DfLhhXPXUVhhuADf07w0TDElwuKHPxEn05HBD30HpFcPQFG7oN3O6Yegu4IYhusMoWlbf4EEMNb/Dx/9KX4MYam5p9kEMDTNEuOEiiKFhcgE39ExDXfkwxMcbXqoe2wJTpgZvGOI0alMaA28YYthmyifiDd8CGJri4w07fW/B36bwCgz9x23Gej4FhrOqBxdjDK/A0GN59IopD6XD0DeRYa7j02DYmXoJrs3BVRj6vcSacgwVhl5ZYfOvUIuhR3N6routw7BzdDasrYoC7sfP3Mi1x6j7RqFnKmQnBG6riKYFC7xhtqTGba4v2EyDNMx2ZC5dhmTvBfTkj0xRjcMKhqhlhBrm0iu2aTdZ0489vSXXElp9qN/C7UHg82ly6YdYPkItnvai07CQ6NwIrztKBeGG23x7vzgJrhpbbHwCG3YPxR5tWdf5f0m3y8ANd1Wrfsdfhqv6lrsscePSJ9ObmFeNU7t2mw/rDefDpqhrKuLDIJ/vP01cTqlRMnsqJ94vR4OX8XS8HmxerV/eP1QbBoGG7YeG7UeDYbxaDkcTN0bDZc880ccbHv0y3gljzTXCYUqionN12RfWsPcVRvAvp6rpBtQwTD3UjYohHdIw0Bf6n/IvFWgYpmYvTelsBWcYpvw5S1lyCmYYpkY/R9lWRJih7+J9OSXFUSjDELudyigWKaIM6w8ScqO4eR1kGKaqtAwthrKzklwoDFFBhqZ0oR+F0+sxhiHqESvY5u+FMQw7IM2S7/UxhtL1FxfyQzeMYfWhgf7kj3LDGDbVGybke0SMoX/iopr8P3D7YYaHRa85Yg2GjTKnYSBo2Bw0DAUNm4OGoaBhc9AwFD/PcNi9E+seyBADDWlIQzw0pCEN8dCQhjTEQ0Ma0hAPDWlIQzw0pCEN8dCQhjTEQ0Ma0hAPDWlIQzw0pCEN8Ty+YZN7ZurPbL0HTe7sum2x/AMCY4JKCvU+VgAAAABJRU5ErkJggg==" alt="">
+                  <h3 class="login-box-msg">Detail information</h3>
+              
+                  <form action= "http://127.0.0.1:3000/update" method = "POST">
+                      <b>Name</b>
+                      <div class="form-group has-feedback">
+                      <input type="text" class="form-control"  id = "idName" name = "name" value ="<%=user.name%>" readonly>
+                      <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                      </div>
+                      <b>Age</b>
+                      <div class="form-group has-feedback">
+                      <input type="text" class="form-control"  id = "idAge" name = "age" value ="<%=user.age%>" readonly>
+                      <span class="glyphicon glyphicon-tree-deciduous form-control-feedback"></span>
+                      </div>
+                      <b>Email</b>
+                      <div class="form-group has-feedback">
+                      <input type="text" class="form-control"  id = "idEmail" name = "email" value ="<%=user.email%>" readonly>
+                      <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                      </div>
+                      <div class="row">
+                      <div class="col-xs-12">
+                          
+                      </div>
+                      <!-- /.col -->
+                      <div class="col-xs-3"></div>
+                      <div class="col-xs-6">
+                          <a style = "float: right" class="btn btn-primary btn-md btn-block" href="/user/manager/<%=page%>">Back</a>
+                      </div>
+                      <div class="col-xs-3"></div>
+                      
+                      <!-- /.col -->
+                      </div>
+                  </form>
+                  </div>      
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  
+    <%- include('partials/underContent.ejs'); %>
